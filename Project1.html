@@ -1,0 +1,20 @@
+html>
+<head>
+    <script>
+     var words = prompt("Please enter a list of 2 to 12 words separated by commas.").split(",");
+if (words.length <2){
+		prompt('Oops, you have not entered enough words');
+    }
+else if (words.length >12){
+		prompt('Oops, you  have entered more than 12 words in here');
+    }
+else {
+		words=words.sort();
+		alert('Here is your list of words in alphabetical order: ' +words);
+    }
+    </script>
+</head>
+<body>
+ 
+</body>
+</html>
